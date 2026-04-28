@@ -1,0 +1,38 @@
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+
+.titulo {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #cc0000;
+}
+
+.buscador {
+    display: block;
+    margin: 0 auto 2rem auto;
+    padding: 0.75rem 1.25rem;
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.buscador:focus {
+    border-color: #cc0000;
+}

@@ -1,0 +1,53 @@
+.contenedor {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.nombre {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cc0000;
+    margin-bottom: 1rem;
+}
+
+.imagen {
+    width: 180px;
+    height: 180px;
+    image-rendering: pixelated;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.info p {
+    background: #f0f0f0;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.tipos {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.tipo {
+    background: #cc0000;
+    color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+}

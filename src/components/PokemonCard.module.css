@@ -1,0 +1,30 @@
+.card {
+    background: #f5f5f5;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.imagen {
+    width: 100px;
+    height: 100px;
+    image-rendering: pixelated;
+}
+
+.nombre {
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
